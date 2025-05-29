@@ -7,4 +7,9 @@ sebagai bagian dari portofolio untuk menunjukkan kemampuan dan perkembangan saya
 - 📁 lainnya akan menyusul...
 
 ## Tujuan
-🎯 Meningkatkan skill praktis pemrograman, dan mempersiapkan diri untuk terlibat dalam proyek nyata dan open source.
+- Menunjukkan perkembangan kemampuan saya dalam web development
+- Membangun portofolio pribadi
+- Berlatih manajemen versi dengan Git & GitHub
+- Meningkatkan skill praktis pemrograman dan mempersiapkan diri untuk terlibat dalam proyek 
+
+# Portofolio
