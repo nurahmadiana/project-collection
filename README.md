@@ -1,6 +1,8 @@
 Ini adalah repositori berisi kumpulan proyek belajar dan latihan web development saya, 
 sebagai bagian dari portofolio untuk menunjukkan kemampuan dan perkembangan saya dalam pemrograman.
 
+# Portofolio [Lihat](https://nurahmadiana.github.io/project-collection/portofolio/)
+
 ## Daftar Proyek
 - 📁 calculator — Proyek kalkulator sederhana menggunakan HTML, CSS, dan JavaScript
 - 📁 todo-list — Proyek daftar tugas dengan fungsi tambah dan hapus item
@@ -12,5 +14,3 @@ sebagai bagian dari portofolio untuk menunjukkan kemampuan dan perkembangan saya
 - Berlatih manajemen versi dengan Git & GitHub
 - Meningkatkan skill praktis pemrograman dan mempersiapkan diri untuk terlibat dalam proyek 
 
-# Portofolio
-[Lihat](https://nurahmadiana.github.io/project-collection/portofolio/)
