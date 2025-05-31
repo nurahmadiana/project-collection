@@ -1,4 +1,4 @@
-Ini adalah repositori berisi kumpulan proyek belajar dan latihan web development saya, 
+Ini adalah repositori berisi kumpulan proyek belajar dan latihan frontend web development saya, 
 sebagai bagian dari portofolio untuk menunjukkan kemampuan dan perkembangan saya dalam pemrograman.
 
 ## Portofolio 
@@ -11,7 +11,14 @@ Halaman ini berisi koleksi proyek latihan yang telah saya buat selama belajar we
 ## Daftar Proyek
 - 📁 calculator — Proyek kalkulator sederhana menggunakan HTML, CSS, dan JavaScript
 - 📁 todo-list — Proyek daftar tugas dengan fungsi tambah dan hapus item
+- 📁 property-web-project — Proyek web home page yang dirancang untuk mempromosikan dan menjual porperti
 - 📁 lainnya akan menyusul...
+
+## Teknologi
+- HTML
+- CSS
+- JavaScript
+- Boostrap
 
 ## Tujuan
 - Menunjukkan perkembangan kemampuan saya dalam web development
