@@ -1,0 +1,660 @@
+/* import monseratt font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* CSS VARIABLES */
+:root {
+    --primary-color: #0097a7ff;
+    --link-color: #506690;
+    --btn-hover-color: rgb(0, 102, 113);
+    --lg-heading: #161c2d;
+    --text-content: #869ab8;
+    --fixed-header-height: 7rem;
+    --c-white: #fff;
+    --c-black: #000;
+    --c-tintan-white: #f1eeff;
+    --c-cold-purple: #a69fd5;
+    --c-indigo: #6558d3;
+    --c-governor: #4133B7;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--c-white);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+p {
+    text-align: justify;
+}
+
+/* container */
+.container {
+    width: 100%;
+    ;
+}
+
+/* header */
+header {
+    height: var(--fixed-header-height);
+    padding: 30px 1rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: var(--c-white);
+    max-width: 100% !important;
+}
+
+.shadow-header {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-radius .3s, box-shadow .3s;
+    border-bottom: 1px solid #eee;
+}
+
+/* navigation */
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+/* logo */
+.logo h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 800;
+    margin: 0 40px;
+}
+
+#black-title {
+    color: #2a2a2a;
+    font-weight: 300;
+}
+
+/* nav menu */
+.nav_menu_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu_list .nav_menu_item {
+    margin: 0 2rem;
+}
+
+.nav_menu_list .nav_menu_link_menu {
+    font-size: 16.5px;
+    line-height: 27px;
+    color: var(--link-color);
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-decoration: none !important;
+    z-index: 3;
+}
+
+.nav_menu.active {
+    background-color: var(--c-white) !important;
+}
+
+.nav_menu_link:hover {
+    color: var(--primary-color);
+}
+
+.toggle_btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--lg-heading);
+    z-index: 1;
+}
+
+.nav_menu,
+.close_btn {
+    display: none;
+}
+
+.show {
+    right: 3% !important;
+}
+
+/* wrapper */
+.wrapper-home {
+    width: 100%;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+}
+
+.wrapper-content {
+    width: 1000%;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+#content-title {
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--c-white);
+    background-image: url(../img/content-title.png);
+}
+
+.grid-cols-2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.grid-item-1 {
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+}
+
+.main-heading {
+    font-weight: 300px;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.main-heading span {
+    color: var(--primary-color);
+}
+
+.info-text {
+    margin-top: 1.5rem;
+    font-size: 19px;
+    line-height: 28px;
+    color: #334157;
+}
+
+.btn_wrapper {
+    margin-top: 3.5rem;
+    display: flex;
+    width: 100%;
+}
+
+.btn_home {
+    width: 110px;
+    height: 50px;
+    background-color: var(--primary-color);
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.btn_home:hover {
+    transform: translateY(-3px);
+    background-color: var(--btn-hover-color);
+}
+
+.viwe_more_btn {
+    width: 150px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 10px;
+    box-shadow: 0 0.5rem 1.5rem rgba (22, 28, 45, 0.1);
+}
+
+.viwe_more_btn i {
+    margin-left: 0.7rem
+}
+
+.viwe_more_btn:hover {
+    transition: box-shadow 0.25s ease, transfrom 0.25s ease;
+}
+
+
+.documentation_btn {
+    width: 150px;
+    height: 55px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0;
+    background-color: #e1e7fc !important;
+    color: #8e2a86 !important;
+    box-shadow: 0 0.5rem 1.5rem rgba (22, 28, 45, 0.1);
+}
+
+.documentation_btn:hover {
+    background-color: #d7ddf1;
+    transition: box-shadow 0.25s ease, transfrom 0.25s ease;
+}
+
+.grid-item-2 {
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.team_img_wrapper {
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+}
+
+.team_img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+/* KONTAK STYLE */
+.contact-wrap {
+    background-color: #c5d1d8;
+}
+
+.dbox {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.dbox p {
+    margin-bottom: 0;
+}
+
+.dbox p span {
+    font-weight: 500;
+    color: black;
+}
+
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.dbox .text {
+    width: 100%;
+}
+
+.description-blog {
+    font-size: 12px;
+    font-weight: 400px !important;
+    text-align: justify !important;
+}
+
+.btn-readmore {
+    background-color: var(--primary-color) !important;
+}
+
+.text-latest-post {
+    font-size: 17px !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.latest-blog-content {
+    font-size: 13px !important;
+    color: var(--text-content);
+    text-decoration: none;
+}
+
+#latest-blog-content p,
+#latest-blog-content a {
+    text-align: left;
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+}
+
+/* TIPE RUMAH STYLE */
+.tipe_rumah {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.tipe_rumah_item {
+    box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+    border: 1px solid #eee !important;
+}
+
+.tipe_rumah_item i {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* DETAIL TIPE RUMAH STYLE */
+.detail_tipe_rumah {
+    padding-left: 0 !important;
+}
+
+.detail_tipe_rumah_item {
+    box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+    border: 1px solid #eee !important;
+}
+
+.detail_tipe_rumah_item i {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#cardDetailBlog {
+    height: 1000px;
+}
+
+/* ========== RESPONSIVE ========== Media Queries*/
+
+/* STYLE UNTUK DESKTOP */
+@media screen and (min-width: 768px) {
+
+    .dbox {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .toggle_btn {
+        display: none;
+    }
+
+    .nav_menu {
+        display: block;
+    }
+
+    .tipe_website_viwe {
+        display: flex !important;
+    }
+
+    .tipe_mobile_viwe {
+        display: none !important;
+    }
+
+    #cardDetailBlog {
+        max-width: 700px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailImg {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailBlog iframe {
+        max-width: 500px;
+        width: 100%;
+        height: 500;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+
+    .logo h2 {
+        font-size: 23px;
+    }
+
+    .nav_menu {
+        position: fixed;
+        width: 93%;
+        height: 60%;
+        display: block;
+        top: 1%;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+        z-index: 2;
+        transition: 0.1s;
+    }
+
+    .nav_menu_list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 4rem;
+    }
+
+    .nav_menu_list .nav_menu_item {
+        margin: 1rem 0;
+    }
+
+    .nav_menu_list .na_menu_link {
+        font-size: 18px;
+    }
+
+    .close_btn {
+        display: block;
+        position: absolute;
+        right: 10%;
+        font-size: 25px;
+        color: #50689e;
+    }
+
+    .close_btn:hover {
+        color: #000;
+    }
+
+    .wrapper-home {
+        padding: 0 0.7rem;
+    }
+
+    .grid-item-1 {
+        padding-left: 0rem;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .viwe_more_btn {
+        width: 140px;
+        height: 55px;
+        font-size: 13.5px;
+        margin-right: 1rem;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .featured_info p {
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .tipe_website_viwe {
+        display: none !important;
+    }
+
+    .tipe_mobile_viwe {
+        display: flex !important;
+    }
+
+    #cardDetailBlog {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailImg {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailBlog iframe {
+        max-width: 200px;
+        width: 100%;
+        height: 500;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+/* TABLET */
+@media screen and (max-width: 991px) {
+
+    header {
+        padding: 18px 1rem;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .wrapper-home {
+        padding-top: 3rem;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .grid-item-1 {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .main-heading {
+        font-size: 32px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .info-text {
+        font-size: 16px;
+        text-align: center;
+        padding: 0.7rem;
+    }
+
+    .grid-item-2 {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team_img_wrapper {
+        width: 350px;
+        height: 350px;
+    }
+
+    .featured_info {
+        font-size: 19px;
+    }
+
+    .tipe_website_viwe {
+        display: none !important;
+    }
+
+    .tipe_mobile_viwe {
+        display: flex !important;
+    }
+
+    #cardDetailBlog {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailImg {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #cardDetailBlog iframe {
+        max-width: 300px;
+        width: 100%;
+        height: 500;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fasilitas-section {
+        width: 100%;
+    }
+
+    .fasilitas-section h2 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #2a3d66;
+    }
+
+    .fasilitas-section .card-text {
+        font-size: 10px;
+    }
+
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Kepala Desa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row min-vh-100">
+        <!-- Sidebar -->
+        <nav class="sidebar d-flex flex-column align-items-start" id="sidebar">
+            <a href="#"><i class="fa fa-home"></i>Dashboard</a>
+            <a href="#"><i class="fa fa-file-alt"></i>Data Letter C</a>
+            <a href="#"><i class="fa fa-map-marker-alt"></i>Peta Lokasi Tanah</a>
+            <a href="#"><i class="fa fa-user"></i>Register Admin</a>
+            <a href="#"><i class="fa fa-sign-out-alt"></i>Logout</a>
+        </nav>
+        <div class="flex-grow-1">
+            <div class="header">
+                <div>
+                    <span class="mb-1 fw-bold">SIP Letter C (SISTEM INFORMASI PENGELOLAAN LETTER C)</span><br>
+                    <small class="text-muted"><i class="fa fa-tachometer-alt me-2"></i>Dashboard Kepala Desa</small>
+                </div>
+                <div>
+                    <span class="fw-bold">Selamat Datang, Pak Asfuri</span><br>
+                    <small class="text-muted">Desa Purwodadi</small>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row g-4">
+                    <!-- Total Data Letter C (full width on all screens) -->
+                    <div class="col-12">
+                        <div class="dashboard-box">
+                            <h5><i class="fa fa-database me-2"></i>Total Data Letter C</h5>
+                            <p>1154</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- The other 4 boxes below -->
+                    <div class="col-6 col-md-3">
+                        <div class="dashboard-box">
+                            <h5><i class="fa fa-exchange-alt me-2"></i>Waris</h5>
+                            <p>55</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dashboard-box">
+                            <h5><i class="fa fa-exchange-alt me-2"></i>Jual Beli</h5>
+                            <p>55</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dashboard-box">
+                            <h5><i class="fa fa-gift me-2"></i>Hibah</h5>
+                            <p>72</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dashboard-box">
+                            <h5><i class="fa fa-mosque me-2"></i>Wakaf</h5>
+                            <p>55</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity-log mt-4">
+                    <h6 class="mb-3"><i class="fa fa-history me-2"></i>Log Aktivitas Staff</h6>
+                    <div id="activityLog">
+                        <!-- Data log akan diisi oleh JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

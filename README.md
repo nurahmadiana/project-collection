@@ -9,9 +9,10 @@ Silakan kunjungi halaman portofolio saya untuk melihat daftar lengkap proyek yan
 Halaman ini berisi koleksi proyek latihan yang telah saya buat selama belajar web development, dan akan terus diperbarui seiring perkembangan kemampuan saya.
 
 ## Daftar Proyek
-- 📁 calculator — Proyek kalkulator sederhana menggunakan HTML, CSS, dan JavaScript
-- 📁 todo-list — Proyek daftar tugas dengan fungsi tambah dan hapus item
-- 📁 property-web-project — Proyek web home page yang dirancang untuk mempromosikan dan menjual porperti
+- 📁 [calculator](https://nurahmadiana.github.io/project-collection/calculator/) — Proyek kalkulator sederhana menggunakan HTML, CSS, dan JavaScript
+- 📁 [todo-list](https://nurahmadiana.github.io/project-collection/todo-list/) — Proyek daftar tugas dengan fungsi tambah dan hapus item
+- 📁 [property-web-project](https://nurahmadiana.github.io/project-collection/property-web-project/) — Proyek web home page yang dirancang untuk mempromosikan dan menjual porperti
+- 📁 [movie-web-app](https://nurahmadiana.github.io/project-collection/movie-web-app/)
 - 📁 lainnya akan menyusul...
 
 ## Teknologi
