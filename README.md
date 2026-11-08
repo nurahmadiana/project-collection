@@ -1,29 +1,42 @@
-Ini adalah repositori berisi kumpulan proyek belajar dan latihan frontend web development saya, 
-sebagai bagian dari portofolio untuk menunjukkan kemampuan dan perkembangan saya dalam pemrograman.
+# 🚀 Personal Project Collection & Portfolio
 
-## Portofolio 
-Silakan kunjungi halaman portofolio saya untuk melihat daftar lengkap proyek yang telah saya kerjakan.
+Selamat datang! Repositori ini berisi kumpulan proyek latihan dan eksplorasi saya di bidang **Web Development** dan **Data Analysis**, yang disusun sebagai bagian dari portofolio profesional untuk mendokumentasikan perkembangan *skill* pemrograman dan pengolahan data saya.
 
-🔗 [Klik di sini untuk melihat portofolio](https://nurahmadiana.github.io/project-collection/portofolio/)
+---
 
-Halaman ini berisi koleksi proyek latihan yang telah saya buat selama belajar web development, dan akan terus diperbarui seiring perkembangan kemampuan saya.
+## 🔗 Portofolio Utama
+Silakan kunjungi halaman portofolio interaktif saya untuk melihat ringkasan profil dan daftar karya yang telah saya selesaikan:
 
-## Daftar Proyek
-- 📁 [calculator](https://nurahmadiana.github.io/project-collection/calculator/) — Proyek kalkulator sederhana menggunakan HTML, CSS, dan JavaScript
-- 📁 [todo-list](https://nurahmadiana.github.io/project-collection/todo-list/) — Proyek daftar tugas dengan fungsi tambah dan hapus item
-- 📁 [property-web-project](https://nurahmadiana.github.io/project-collection/property-web-project/) — Proyek web home page yang dirancang untuk mempromosikan dan menjual porperti
-- 📁 [movie-web-app](https://nurahmadiana.github.io/project-collection/movie-web-app/)
-- 📁 lainnya akan menyusul...
+👉 **[Lihat Portofolio Utama](https://nurahmadiana.github.io/project-collection/web-development/portofolio/)**
 
-## Teknologi
-- HTML
-- CSS
-- JavaScript
-- Boostrap
+---
 
-## Tujuan
-- Menunjukkan perkembangan kemampuan saya dalam web development
-- Membangun portofolio pribadi
-- Berlatih manajemen versi dengan Git & GitHub
-- Meningkatkan skill praktis pemrograman dan mempersiapkan diri untuk terlibat dalam proyek 
+## 📁 Struktur & Daftar Proyek
 
+### 🌐 Web Development
+Kumpulan proyek aplikasi web interaktif dan *responsive layout*:
+
+- 🧮 **[Calculator](https://nurahmadiana.github.io/project-collection/web-development/calculator/)** — Aplikasi kalkulator sederhana berbasi web menggunakan HTML, CSS, dan JavaScript.
+- 📝 **[Todo-List](https://nurahmadiana.github.io/project-collection/web-development/todo-list/)** — Aplikasi manajemen tugas interaktif dengan fitur penambahan, penyelesaian, dan penghapusan *item*.
+- 🏠 **[Property Web Project](https://nurahmadiana.github.io/project-collection/web-development/property-web-project/)** — *Landing page* bisnis properti yang dirancang untuk promosi dan penawaran hunian.
+- 🎬 **[Movie Web App](https://nurahmadiana.github.io/project-collection/web-development/movie-web-app/)** — Aplikasi katalog film berbasis web.
+
+### 📊 Data Analytics
+*Folder ini disiapkan untuk dokumentasi proyek analisis data, visualisasi, dan olah data Excel/Python selanjutnya.*
+
+---
+
+## 🛠️ Teknologi & Tools
+- **Frontend Web:** HTML5, CSS3, JavaScript (ES6+), Bootstrap
+- **Data & Tools:** Microsoft Excel, Git, GitHub, VS Code
+
+---
+
+## 🎯 Tujuan Repositori
+1. **Showcase Skill:** Menampilkan dokumentasi perkembangan kemampuan teknis di bidang *web development* dan analisis data.
+2. **Personal Portfolio:** Menjadi aset portofolio digital yang terstruktur dan mudah diakses.
+3. **Version Control:** Menerapkan praktik terbaik manajemen versi kode menggunakan Git dan GitHub.
+4. **Career Growth:** Mempersiapkan diri untuk berkontribusi secara nyata dalam proyek-proyek profesional.
+
+---
+*Repositori ini akan terus diperbarui seiring dengan bertambahnya proyek baru.*
